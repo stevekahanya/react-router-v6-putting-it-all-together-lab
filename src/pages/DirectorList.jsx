@@ -14,4 +14,4 @@ function DirectorList() {
   );
 }
 
-export default DirectorList; // Add this line
+export default DirectorList; // Ensure this export exists
