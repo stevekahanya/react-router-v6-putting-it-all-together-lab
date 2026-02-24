@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import NavBar from "../components/NavBar";
+import { Link } from "react-router-dom"; // Add this import
+import NavBar from "../components/NavBar"
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
         </nav>
       </main>
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home
