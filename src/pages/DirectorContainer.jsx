@@ -20,8 +20,8 @@ const DirectorContainer = () => {
             <NavBar />
             <main>
                 <h1>Welcome to the Director's Directory!</h1>
-                {/* Render nested routes and share state via context */}
-                <Outlet context={{ directors, setDirectors }} /> 
+                {/* Pass state to children via context */}
+                <Outlet context={{ directors, setDirectors }} />
             </main>
         </>
     );
