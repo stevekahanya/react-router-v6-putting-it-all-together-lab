@@ -13,3 +13,5 @@ function DirectorList() {
     </ul>
   );
 }
+
+export default DirectorList; // Add this line
